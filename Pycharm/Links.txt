@@ -1,1 +1,0 @@
-Exemple koala : https://stackoverflow.com/questions/34362922/how-to-use-opencv-stitcher-class-with-python
