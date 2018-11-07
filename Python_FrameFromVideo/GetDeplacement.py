@@ -44,7 +44,6 @@ def GetDeplacement(im1, im2):
 
     for i, match in enumerate(matches):
         points1[i, :] = kp1[match.queryIdx].pt
-        # print(type(points1))
         points2[i, :] = kp2[match.trainIdx].pt
         pointsDeplacements[i, :] = points1[i, :] - points2[i, :]
         # print('Point 1 : ', points1[i, :])
@@ -53,10 +52,10 @@ def GetDeplacement(im1, im2):
         # print('delta x : ', pointsDeplacements[i, 0])
         # print('delta y : ', pointsDeplacements[i, 1])
 
-        if pointsDeplacements[i, 1] < 2:
-            print('Difference : ', pointsDeplacements[i, :])
-            print('delta x : ', pointsDeplacements[i, 0])
-            print('delta y : ', pointsDeplacements[i, 1])
+        if abs(pointsDeplacements[i, 1]) < 2:   # if delta y is not abberant
+            # print('Difference : ', pointsDeplacements[i, :])
+            # print('delta x : ', pointsDeplacements[i, 0])
+            # print('delta y : ', pointsDeplacements[i, 1])
             if pointsDeplacements[i, 0] > maxMove:
                 maxMove = pointsDeplacements[i, 0]
             if abs(pointsDeplacements[i, 0]) < minMove:
@@ -68,13 +67,6 @@ def GetDeplacement(im1, im2):
     print('minMove : ', minMove)
     print('maxMove : ', maxMove)
     print('averageMove : ', averageMove)
-
-
-
-
-
-
-
     return
 
 
