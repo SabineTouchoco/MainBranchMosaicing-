@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2f8677ef-c738-492f-b630-d75700bd7795" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/dense_optical_flow.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/input/video/t4_archives.mp4" afterDir="false" />
@@ -25,6 +26,9 @@
       <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thomas.txt" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="2f8677ef-c738-492f-b630-d75700bd7795" name="Default Changelist" comment="" />
+>>>>>>> f9932b2da10bcf2c8cb6a9faeaf6b6f0b9347337
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +66,17 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-354839220">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/line_sampling.py">
@@ -94,6 +107,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/line_sampling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+>>>>>>> f9932b2da10bcf2c8cb6a9faeaf6b6f0b9347337
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -139,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +189,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -283,9 +308,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1527" height="917" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983211" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+>>>>>>> f9932b2da10bcf2c8cb6a9faeaf6b6f0b9347337
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,8 +328,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+>>>>>>> f9932b2da10bcf2c8cb6a9faeaf6b6f0b9347337
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,8 +346,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/line_sampling.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-2">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+>>>>>>> f9932b2da10bcf2c8cb6a9faeaf6b6f0b9347337
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
