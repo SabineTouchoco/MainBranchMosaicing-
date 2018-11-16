@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-filename = "input/T4.avi"
+filename = "input/t4_avi.avi"
 
 video = cv2.VideoCapture(filename)
 fps = video.get(cv2.CAP_PROP_FPS)

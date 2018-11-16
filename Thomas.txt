@@ -1,6 +1,0 @@
-(Deep learning sur) flow optique
-Calibration caméra
-RGBD
-Déconvolution par Niner ou CLS
-Librairies PCL OpenCV
-Photogramétrie

@@ -2,146 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8677ef-c738-492f-b630-d75700bd7795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input/T4.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input/T4_HFV_Charpennes-CharlesHernu.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line_sampling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/GetDeplacement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Inputs/T4_HFV_Archives.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Inputs/T4_HFV_Archives.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Mosa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/ResultAligned.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/ResultMatches.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/frame9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Outputs/matches.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_FrameFromVideo/Script_FrameFromeVideo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/ImgStereo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/ResultAligned015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Inputs/frame9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ImageStereo/Outputs/Result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Koala_02_10_2018/Inputs/koala_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Koala_02_10_2018/Inputs/koala_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Koala_02_10_2018/Outputs/koala_result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Koala_02_10_2018/Script_stitch_koala.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_LineSampling/inputs/T4.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_LineSampling/inputs/T4_HFV_Charpennes-CharlesHernu.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_LineSampling/line_sampling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_LineSampling/line_sampling_SI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Mosa2/panorama.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Mosa2/realtime_stitching.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_RemoveBG/inputs/T4.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_RemoveBG/inputs/result_delta_var.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_RemoveBG/removeBG.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ThiersLafayette_02_10_2018/Inputs/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ThiersLafayette_02_10_2018/Inputs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ThiersLafayette_02_10_2018/Inputs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ThiersLafayette_02_10_2018/Outputs/result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_ThiersLafayette_02_10_2018/Script_stitch_ThiersLafayette.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Video_05_10_2018/frame_sampling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Video_05_10_2018/inputs/T4.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Video_05_10_2018/inputs/T4.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/ORB_testing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/T4.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_img_compare_05_10_18/inputs/img_9.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dense_optical_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_archives.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_beauvisage.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_bellecombe.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_colbert.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_etats_unis.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_jeteau.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_lumieres.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_montluc.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_part_dieu.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_thiers.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_tonkin.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/video/t4_universite.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optical_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librairies_potentielles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orga 14-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/T4.avi" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/video/t4_avi.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/T4_HFV_Charpennes-CharlesHernu.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/video/t4_charpennes.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/line_sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/line_sampling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thomas.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,29 +35,65 @@
     <session id="-547137015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="93" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="93" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/line_sampling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="-2">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/optical_flow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dense_optical_flow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -192,6 +110,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lk_params</find>
+      <find>good_new</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -199,6 +123,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/line_sampling.py" />
+        <option value="$PROJECT_DIR$/src/dense_optical_flow.py" />
+        <option value="$PROJECT_DIR$/src/optical_flow.py" />
       </list>
     </option>
   </component>
@@ -226,6 +152,19 @@
               <item name="PTI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PTI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PTI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,7 +172,11 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julian\Downloads\Cours\TDSI - Projets\MainBranchMosaicing-\PTI\src\input\video" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Julian\Downloads\Cours\TDSI - Projets\MainBranchMosaicing-\PTI\src\input" />
       <recent name="C:\Users\Julian\Downloads\Cours\TDSI - Projets\MainBranchMosaicing-\PTI\src" />
     </key>
   </component>
@@ -249,7 +192,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.optical_flow">
+    <configuration name="dense_optical_flow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dense_optical_flow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="line_sampling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,8 +235,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="optical_flow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/optical_flow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.line_sampling" />
+      <item itemvalue="Python.optical_flow" />
+      <item itemvalue="Python.dense_optical_flow" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.optical_flow" />
+        <item itemvalue="Python.dense_optical_flow" />
         <item itemvalue="Python.line_sampling" />
       </list>
     </recent_temporary>
@@ -292,22 +284,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1527" height="917" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32908162" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,10 +310,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/line_sampling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="-2">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dense_optical_flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optical_flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

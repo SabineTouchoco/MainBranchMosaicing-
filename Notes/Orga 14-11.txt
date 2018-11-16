@@ -1,0 +1,6 @@
+Supprimer le fond
+Reconstitution des images
+Comptage et densité
+
+1. Traitement des images
+2. Comptage et densité

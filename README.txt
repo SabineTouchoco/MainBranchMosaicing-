@@ -1,4 +1,0 @@
-# MainBranchMosaicing-
-
-Test
-Test Julian
