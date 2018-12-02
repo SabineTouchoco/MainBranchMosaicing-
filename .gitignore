@@ -14,3 +14,5 @@ Python_LineSampling/outputs/
 Old/*
 
 PTI/src/output/*
+PTI/.idea/*
+PTI/src/util/output/
