@@ -1,5 +1,6 @@
+# coding: latin-1
 import cv2
-import os
+import sys
 import numpy as np
 
 def extract_image_one_fps(video_source_path):
@@ -8,7 +9,7 @@ def extract_image_one_fps(video_source_path):
 
     video_capture = cv2.VideoCapture()
     if not video_capture.open(video_source_path):
-        print >> sys.stderr, 'Error: Cannot open video file ' + filename
+        print >> sys.stderr, 'Error: Cannot open video file ' + video_source_path
         return
 
     count = 0
@@ -18,7 +19,7 @@ def extract_image_one_fps(video_source_path):
     video_nb_ms = vidcap.get(cv2.CAP_PROP_POS_MSEC)  # Current position of the video file in milliseconds.
     nb_ms = 33 # Echantillonage video toutes les nb_ms
     print(video_nb_ms)
-    print(vidcap.get(cv2.CAP_PROP_FRAME_COUNT ))
+    print(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
 
     while success and (count*nb_ms) < video_nb_ms:
 
@@ -33,5 +34,5 @@ def extract_image_one_fps(video_source_path):
         cv2.imwrite("Outputs//frame%d.jpg" % count, image)  # save frame as PNG file
         count += 1
 
-video_source_path = "Inputs//T4_HFV_Archives.mp4"
+video_source_path = "Inputs//T4_HFV_ArchivesDepartementales.mp4"
 extract_image_one_fps(video_source_path)

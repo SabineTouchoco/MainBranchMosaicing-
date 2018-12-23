@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('inputs/T4.avi')
+cap = cv2.VideoCapture("Inputs//T4_HFV_ManufactureMontluc.mp4")
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 while 1:

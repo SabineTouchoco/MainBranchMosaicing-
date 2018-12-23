@@ -28,8 +28,8 @@ def GetDeplacement(im1, im2):
     matches = matches[:numGoodMatches]
 
     # Draw top matches
-    imMatches = cv2.drawMatches(im1, kp1, im2, kp2, matches, None)
-    cv2.imwrite("Outputs/ResultMatches.jpg", imMatches)
+    #imMatches = cv2.drawMatches(im1, kp1, im2, kp2, matches, None)
+    #cv2.imwrite("Outputs/ResultMatches.jpg", imMatches)
 
     # Extract location of good matches
     points1 = np.zeros((len(matches), 2), dtype=np.float32)
@@ -64,22 +64,25 @@ def GetDeplacement(im1, im2):
             itMove = itMove + 1
     averageMove = abs(averageMove)
     #print(type(pointsDeplacements))
-    print('minMove : ', minMove)
-    print('maxMove : ', maxMove)
+    #print('minMove : ', minMove)
+    #print('maxMove : ', maxMove)
     print('averageMove : ', averageMove)
     return
 
 
 if __name__ == '__main__':
-    # Read reference image
-    refFilename = "Outputs/frame306.jpg"
-    print("Reading reference image : ", refFilename)
-    imReference = cv2.imread(refFilename, cv2.IMREAD_COLOR)
 
-    # Read image to be compared
-    imFilename = "Outputs/frame307.jpg"
-    print("Reading image to align : ", imFilename);
-    im = cv2.imread(imFilename, cv2.IMREAD_COLOR)
+    i = 1
+    while i < 348:
 
-    GetDeplacement(im, imReference)
+        # Read reference image : print("Reading reference image : ", refFilename)
+        refFilename = "Outputs/frame%i.jpg" % i
+        imReference = cv2.imread(refFilename, cv2.IMREAD_COLOR)
+
+        # Read image to be compared ; print("Reading image to align : ", imFilename);
+        i = i + 1
+        imFilename = "Outputs/frame%i.jpg" % i
+        im = cv2.imread(imFilename, cv2.IMREAD_COLOR)
+
+        GetDeplacement(im, imReference)
 
