@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-filename = os.path.abspath("‪D:\sabin\Documents\Etudes\INSA 3\Challenge\Partage\Inputs\T4\T4_HFV_ArchivesDepartementales.mp4")
+filename = os.path.abspath("‪D:/sabin/Videos/T4/T4_HFV_ArchivesDepartementales.mp4")
 
 video = cv2.VideoCapture(filename)
 fps = video.get(cv2.CAP_PROP_FPS)
