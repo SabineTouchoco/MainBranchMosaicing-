@@ -162,7 +162,7 @@ def creerMosaique(cheminVideo,
     # Traitement image par image
     for i in range(int(frame_count)):
         # Initialisation pour l'image en cours de traitement
-        delta = delta_0 - i * delta_0 / frame_count
+        delta = delta_0 - i * delta_0 / (frame_count*1.33)
         success, imageVideo = video.read()
         if success:
             # Preparation de l'image pour le traitement : rotation, redimensionnement
@@ -282,7 +282,7 @@ NomsVideosQuaiAGaucheMp4 = ["01-garevaise1",
 # Performance : 63 minutes pour 44 videos
 
 # (0,6)
-for it_video in range(0,0):     # Probleme : la ligne au milieu de l'image ne comporte pas d'information.
+for it_video in range(0,2):     # Probleme : la ligne au milieu de l'image ne comporte pas d'information.
                                 # Donc la correlation avec la ligne du milieu echoue.
     nomVideo = NomsVideosQuaiADroiteMetroMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
@@ -299,7 +299,7 @@ for it_video in range(0,0):     # Probleme : la ligne au milieu de l'image ne co
     mon_image = creerMosaique(cheminVideo,10,0.75,0.33,5,"QuaiADroite",0,cheminFichiersSortie)
 
 # (0,9)
-for it_video in range(0,9):    # 32.5 minutes pour 11 videos
+for it_video in range(0, 0):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiADroiteTramMov[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiADroite//Tram//" + nomVideo + ".MOV"
@@ -315,7 +315,7 @@ for it_video in range(0,9):    # 32.5 minutes pour 11 videos
     mon_image = creerMosaique(cheminVideo,100,1,0,3,"QuaiADroite",-90,cheminFichiersSortie)
 
 # (0,14)
-for it_video in range(0,14):    # 32.5 minutes pour 11 videos
+for it_video in range(0,0):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiADroiteTramMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiADroite//Tram//" + nomVideo + ".mp4"
@@ -331,7 +331,7 @@ for it_video in range(0,14):    # 32.5 minutes pour 11 videos
     mon_image = creerMosaique(cheminVideo,100,1,0,3,"QuaiADroite",0,cheminFichiersSortie)
 
 # (0,22)
-for it_video in range(0,22):    # 32.5 minutes pour 11 videos
+for it_video in range(0,0):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiAGaucheMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiAGauche//" + nomVideo + ".mp4"
@@ -347,7 +347,7 @@ for it_video in range(0,22):    # 32.5 minutes pour 11 videos
     mon_image = creerMosaique(cheminVideo, 0.6, 0.75, 0.33, 30, "QuaiAGauche", 0, cheminFichiersSortie)
 
 # (0,4)
-for it_video in range(1,4):    # 32.5 minutes pour 11 videos
+for it_video in range(0,0):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiAGaucheMov[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiAGauche//" + nomVideo + ".MOV"

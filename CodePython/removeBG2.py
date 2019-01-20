@@ -2,6 +2,8 @@ import numpy as np
 import cv2
 
 filename = "Inputs//videoplayback.mp4"
+filename = "Inputs//QuaiADroite//Tram//P1190082.MOV"
+
 video = cv2.VideoCapture(filename)
 fgbg = cv2.createBackgroundSubtractorMOG2()
 

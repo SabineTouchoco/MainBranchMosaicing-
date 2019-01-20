@@ -245,39 +245,37 @@ NomsVideosQuaiADroiteTramMov = ["P1190070",
                                 "P1190085"]
 
 NomsVideosQuaiAGaucheMov = ["P1190073",
-                                 "P1190074",
-                                 "P1190075",
-                                 "P1190076",
-                                 "P1190077",
-                                 "P1190078"]
+                            "P1190074",
+                            "P1190076",
+                            "P1190078"]
 
 NomsVideosQuaiAGaucheMp4 = ["01-garevaise1",
-                         "03-gorgeloup1",
-                         "03-gorgeloup2",
-                         "04-vieuxlyon1",
-                         "04-vieuxlyon2",
-                         "06-guillotiere1",
-                         "06-guillotiere2",
-                         "07-saxegambetta1",
-                         "07-saxegambetta2",
-                         "08-garibaldi1",
-                         "08-garibaldi2",
-                         "09-sanssouci1",
-                         "09-sanssouci2",
-                         "10-monplaisir1",
-                         "10-monplaisir2",
-                         "12-laennec1",
-                         "12-laennec2",
-                         "13-mermoz1",
-                         "13-mermoz2",
-                         "14-parilly1",
-                         "14-parilly2",
-                         "15-garevenissieux"]
+                            "03-gorgeloup1",
+                            "03-gorgeloup2",
+                            "04-vieuxlyon1",
+                            "04-vieuxlyon2",
+                            "06-guillotiere1",
+                            "06-guillotiere2",
+                            "07-saxegambetta1",
+                            "07-saxegambetta2",
+                            "08-garibaldi1",
+                            "08-garibaldi2",
+                            "09-sanssouci1",
+                            "09-sanssouci2",
+                            "10-monplaisir1",
+                            "10-monplaisir2",
+                            "12-laennec1",
+                            "12-laennec2",
+                            "13-mermoz1",
+                            "13-mermoz2",
+                            "14-parilly1",
+                            "14-parilly2",
+                            "15-garevenissieux"]
 
 # Performance : 63 minutes pour 44 videos
 
 # (0,6)
-for it_video in range(0,0):     # Probleme : la ligne au milieu de l'image ne comporte pas d'information.
+for it_video in range(0,1):     # Probleme : la ligne au milieu de l'image ne comporte pas d'information.
                                 # Donc la correlation avec la ligne du milieu echoue.
     nomVideo = NomsVideosQuaiADroiteMetroMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
@@ -293,8 +291,8 @@ for it_video in range(0,0):     # Probleme : la ligne au milieu de l'image ne co
     #                   cheminFichiersSortie)
     mon_image = creerMosaique(cheminVideo,10,0.75,0.33,5,"QuaiADroite",0,cheminFichiersSortie)
 
-# (0,10)
-for it_video in range(0,10):    # 32.5 minutes pour 11 videos
+# (0,9)
+for it_video in range(0,1):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiADroiteTramMov[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiADroite//Tram//" + nomVideo + ".MOV"
@@ -310,7 +308,7 @@ for it_video in range(0,10):    # 32.5 minutes pour 11 videos
     mon_image = creerMosaique(cheminVideo,100,1,0,3,"QuaiADroite",-90,cheminFichiersSortie)
 
 # (0,14)
-for it_video in range(0,14):    # 32.5 minutes pour 11 videos
+for it_video in range(0,1):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiADroiteTramMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiADroite//Tram//" + nomVideo + ".mp4"
@@ -326,7 +324,7 @@ for it_video in range(0,14):    # 32.5 minutes pour 11 videos
     mon_image = creerMosaique(cheminVideo,100,1,0,3,"QuaiADroite",0,cheminFichiersSortie)
 
 # (0,22)
-for it_video in range(0,22):    # 32.5 minutes pour 11 videos
+for it_video in range(0,1):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiAGaucheMp4[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiAGauche//" + nomVideo + ".mp4"
@@ -341,8 +339,8 @@ for it_video in range(0,22):    # 32.5 minutes pour 11 videos
     #                   cheminFichiersSortie)
     mon_image = creerMosaique(cheminVideo, 0.6, 0.75, 0.33, 30, "QuaiAGauche", 0, cheminFichiersSortie)
 
-# (0,6)
-for it_video in range(1,6):    # 32.5 minutes pour 11 videos
+# (0,4)
+for it_video in range(0,1):    # 32.5 minutes pour 11 videos
     nomVideo = NomsVideosQuaiAGaucheMov[it_video]
     print("Debut analyse de la video : " + nomVideo)
     cheminVideo = "Inputs//QuaiAGauche//" + nomVideo + ".MOV"
